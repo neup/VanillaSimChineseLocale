@@ -459,3 +459,71 @@ $Definition['The invitation was removed successfully.'] = '邀请已经成功删
 $Definition['An invitation has already been sent to the email you entered.'] = '已经有其他用户的邀请发送给该地址.';
 $Definition['The email you have entered is already related to an existing account.'] = '该邮件地址已经是网站的成员.';
 
+// update by frellica 130201
+// wait for translation
+$Definition['RecipientUserID'] = 'recipient';
+$Definition['New Conversation'] = 'New Message';
+$Definition['ValidateFormat'] = 'You are not allowed to post raw html.';
+$Definition['ValidateBanned'] = 'That %s is not allowed.';
+$Definition['ValidateUrlStringRelaxed'] = '%s can not contain slashes, quotes or tag characters.';
+$Definition['InviteErrorPermission'] = 'Sorry, permission denied.';
+$Definition['PermissionRequired.Garden.Moderation.Manage'] = 'You need to be a moderator to do that.';
+$Definition['PermissionRequired.Garden.Settings.Manage'] = 'You need to be an administrator to do that.';
+$Definition['PermissionRequired.Javascript'] = 'You need to enable javascript to do that.';
+$Definition['ErrorBadInvitationCode'] = 'The invitation code you supplied is not valid.';
+$Definition['User not found.'] = 'Sorry, no account could be found related to the %s you entered.';
+$Definition['Invalid password.'] = 'The password you entered was incorrect. Remember that passwords are case-sensitive.';
+$Definition['ErrorPluginVersionMatch'] = 'The enabled {0} plugin (version {1}) failed to meet the version requirements ({2}).';
+$Definition['ErrorPluginDisableRequired'] = 'You cannot disable the {0} plugin because the {1} plugin requires it in order to function.';
+$Definition['ErrorPluginEnableRequired'] = 'This plugin requires that the {0} plugin be enabled before it can be enabled itself.';
+$Definition['RoleID'] = 'role';
+$Definition['Garden.Registration.DefaultRoles'] = 'default role';
+$Definition['Garden.Title'] = 'Banner Title';
+$Definition['Garden.Email.SupportName'] = 'Support name';
+$Definition['UrlCode'] = 'Url code';
+$Definition['OldPassword'] = 'Old password';
+$Definition['RoleID'] = 'role';
+$Definition['EmailHeader'] = 'Hello {User.Name}!
+';
+$Definition['EmailFooter'] = '
+Have a great day!';
+$Definition['EmailConfirmEmail'] = 'You need to confirm your email address before you can continue. Please confirm your email address by clicking on the following link: {/entry/emailconfirm,exurl,domain}/{User.UserID,rawurlencode}/{EmailKey,rawurlencode}';
+$Definition['AddonProblems'] = "<h2>Problems?</h2><p>If something goes wrong with an addon and you can't use your site, you can disable them manually by editing:</p>%s";
+$Definition['Date.DefaultDateTimeFormat'] = '%B %e, %Y %l:%M%p';
+$Definition['Saved'] = 'Your changes have been saved.';
+$Definition['%s new plural'] = '%s new';
+$Definition['TermsOfService'] = 'Terms of Service';
+$Definition['TermsOfServiceText'] = 
+"You agree, through your use of this service, that you will not use this
+community to post any material which is knowingly false and/or defamatory,
+inaccurate, abusive, vulgar, hateful, harassing, obscene, profane, sexually
+oriented, threatening, invasive of a person's privacy, or otherwise violative
+of any law. You agree not to post any copyrighted material unless the
+copyright is owned by you.
+
+We at this community also reserve the right to reveal your identity (or
+whatever information we know about you) in the event of a complaint or legal
+action arising from any message posted by you. We log all internet protocol
+addresses accessing this web site.
+
+Please note that advertisements, chain letters, pyramid schemes, and
+solicitations are inappropriate on this community.
+
+We reserve the right to remove any content for any reason or no reason at
+all. We reserve the right to terminate any membership for any reason or no
+reason at all.
+
+You must be at least 13 years of age to use this service.";
+$Definition['Warning: This is for advanced users.'] = '<b>Warning</b>: This is for advanced users and requires that you make additional changes to your web server. This is usually only available if you have dedicated or vps hosting. Do not attempt this if you do not know what you are doing.';
+$Definition['Activity.Delete'] = '×';
+$Definition['Draft.Delete'] = '×';
+$Definition['ConnectName'] = 'Username';
+$Definition['EmbeddedDiscussionFormat'] = '<div class="EmbeddedContent">{Image}<strong>{Title}</strong>
+<p>{Excerpt}</p>
+<p><a href="{Url}">Read the full story here</a></p><div class="ClearFix"></div></div>';
+$Definition['EmbeddedNoBodyFormat'] = '{Url}';
+$Definition['CategoryID'] = 'Category';
+$Definition['Some Code'] = 'Translation goes here.';
+$Definition['Iñtërnâtiônàlizætiøn'] = 'Iñtërnâtiônàlizætiøn Translation!!!';
+$Definition['Some Other Code'] = 'Translation goes here.';
+$Definition['this is for debugging'] = 'debugging blah blah blah';
